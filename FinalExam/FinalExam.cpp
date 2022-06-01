@@ -64,4 +64,6 @@ int main()
 		cout << "Sorry. I don't know this answer!" << endl;
 		exit(1);
 	}
+	
+	return 0;
 }

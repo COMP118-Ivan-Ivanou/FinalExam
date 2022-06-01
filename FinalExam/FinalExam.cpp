@@ -34,6 +34,7 @@ int main()
 			}
 		}
 	}
+	
 	if (answer == 2) {
 		for (int h = 0; h < 4; h++) {
 			for (int l = 0; l < 3; l++) {
@@ -46,6 +47,7 @@ int main()
 			}
 		}
 	}
+	
 	if (answer == 3) {
 		for (int z = 0; z < 4; z++) {
 			for (int g = 0; g < 3; g++) {
@@ -53,9 +55,11 @@ int main()
 			}
 		}
 	}
+	
 	if (answer == 4) {
 		exit(0);
 	}
+	
 	else {
 		cout << "Sorry. I don't know this answer!" << endl;
 		exit(1);

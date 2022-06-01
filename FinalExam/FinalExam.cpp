@@ -15,12 +15,13 @@ using namespace std;
 int main()
 {
 	double matrix[4][3];
-	int answer;
+	int answer, counter1 = 0;
 
 	cout << "1) Enter data in matrix( range -5.5 to 5.5" << endl;
 	cout << "2) Negate all elements( i.e. if a element is -5 => 5, or element 5 => -5)" << endl;
 	cout << "3) Show data in matrix" << endl;
 	cout << "4) Exit" << endl;
+	cout << "5) Second branch: find for all items with value 1.0" << endl;
 
 	cin >> answer;
 
@@ -53,6 +54,16 @@ int main()
 	}
 	if (answer == 4) {
 		exit(0);
+	}
+	if (answer == 5) {
+		for (int h = 0; h < 4; h++) {
+			for (int l = 0; l < 3; l++) {
+				if (matrix[h][l] == 1.0) {
+					counter1 += 1;
+				}
+			}
+		}
+		cout << counter1 << endl;
 	}
 	else {
 		cout << "Sorry. I don't know this answer!" << endl;

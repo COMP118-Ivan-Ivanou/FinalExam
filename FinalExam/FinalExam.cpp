@@ -1,4 +1,4 @@
-/** \file	   FinalExam.cpp
+/** \file      FinalExam.cpp
  *  \brief     FinalExam program
  *  \details   This program is the program that complete all required 
  *			   things that suppose to be completed during the tasks 

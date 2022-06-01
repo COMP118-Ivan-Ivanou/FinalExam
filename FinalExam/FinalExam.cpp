@@ -9,6 +9,7 @@
  *  \copyright University of Nicosia.
  */
 #include <iostream>
+#include <cassert>
 
 using namespace std;
 
@@ -28,6 +29,7 @@ int main()
 		for (int i = 0; i < 4; i++) {
 			for (int y = 0; y < 3; y++) {
 				cout << "Enter the data: " << endl;
+				assert(matrix[i][y] > 5.5 || matrix[i][y] < -5.5);
 				cin >> matrix[i][y];
 			}
 		}
